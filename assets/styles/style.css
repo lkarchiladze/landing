@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.header{
+    background-color: #0F172A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 100px;
+    gap: 121px;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+    text-decoration: none;
+}
+
+.main{
+    background-color: #0F172A;
+    padding:132.5px 145px 139px 145px;
+}
+
+.img2{
+    margin-bottom: 83px;
+    margin-top: 50px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.article1{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34.12px 8px;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.article2{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34.12px 8px;
+    display: flex;
+    gap: 100px;
+    align-items: center
+}
+
+.article3{
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34.12px 8px;
+    display: flex;
+    gap: 150px;
+    align-items: center
+}
+.article-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.article-info h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    margin: 25px;
+}
+
+.article-info p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+    margin: 25px;
+}
+
+.section2{
+    background: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img3{
+    image-resolution: 
+    292.81px 369px;
+}
+
+.card2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px; 
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #F8FAFC
+}
+
+.date{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F8FAFC
+}
+
+.footer{
+    background-color: #0F172A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 108px;
+}
+
+.footer span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-socials a{
+    text-decoration: none;
+}
